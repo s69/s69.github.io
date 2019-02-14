@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+
+.divOff {
+    display: none;
+}
+
+.divPassword,
+.divPasswordTwo {
+    width: 280px;
+    margin: 0 auto;
+    top: 45%;
+    position: relative;
+}
+
+.divPasswordTwo {
+    display: none;
+}
+
+input {
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+}
+
+p {
+    color: #00ff00;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
