@@ -27,12 +27,12 @@ window.onload = int = setInterval(function () {
     var divOffP = document.getElementsByTagName("p");
     var divOff = document.getElementById("divOff");
     divInput.focus();
-    if (divInput.value == "bing") {
+    if (divInput.value == "htmlcssjavascript") {
         divInput.style.display = "none";
         divOffP[0].style.display="none";
         divPasswordTwo.style.display = "block";
         divInputTwo.focus();
-        if (divInputTwo.value == "googlebing") {
+        if (divInputTwo.value == "webhtmlcssjavascript") {
             divInputTwo.style.display = "none";
             divOffP[1].style.display="none";
             divOff.style.display = "block";
@@ -40,4 +40,4 @@ window.onload = int = setInterval(function () {
             clearInterval(int);
         }
     }
-}, 2000);
+}, 2710);
