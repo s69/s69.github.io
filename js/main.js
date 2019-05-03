@@ -29,12 +29,12 @@ window.onload = int = setInterval(function () {
     divInput.focus();
     if (divInput.value == "htmlcssjavascript") {
         divInput.style.display = "none";
-        divOffP[0].style.display="none";
+        divOffP[0].style.display = "none";
         divPasswordTwo.style.display = "block";
         divInputTwo.focus();
         if (divInputTwo.value == "webhtmlcssjavascript") {
             divInputTwo.style.display = "none";
-            divOffP[1].style.display="none";
+            divOffP[1].style.display = "none";
             divOff.style.display = "block";
             document.getElementsByTagName("body")[0].style.backgroundColor = "#fff";
             clearInterval(int);
