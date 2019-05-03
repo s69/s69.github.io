@@ -36,7 +36,7 @@ window.onload = int = setInterval(function () {
             divInputTwo.style.display = "none";
             divOffP[1].style.display = "none";
             divOff.style.display = "block";
-            document.getElementsByTagName("body")[0].style.backgroundColor = "#fff";
+            document.getElementsByTagName("body")[0].style.backgroundColor = "#000";
             clearInterval(int);
         }
     }
